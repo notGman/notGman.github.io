@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./media.css" />
+    <script src="https://kit.fontawesome.com/79a5675953.js" crossorigin="anonymous"></script>
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="sidebar">
+        <div class="image-container">
+          <img src="./images/IMG20220606120122.jpg" alt="Profile Pic" class="profile-pic" />
+        </div>
+        <h1 class="name">Gowthaman</h1>
+        <p class="job">Front End Developer</p>
+        <div class="navigation-btns">
+          <button class="nav-btn hov-btn HOME-btn">Home</button>
+          <button class="nav-btn ABOUT-btn">About</button>
+          <button class="nav-btn EDU-btn">Education</button>
+          <button class="nav-btn PORT-btn">Portfolio</button>
+          <button class="nav-btn CONTACT-btn">Contact</button>
+        </div>
+      </div>
+      <nav>
+        <div class="hamburger">
+          <i class="fa-solid fa-bars icon"></i>
+        </div>
+      </nav>
+      <div class="mainpages">
+        <section class="home">
+          <h3 class="hi-text">HI THERE !</h3>
+          <h1 class="title">I'm Gowthaman</h1>
+          <p class="info">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum numquam cupiditate, placeat molestiae, corporis
+            officiis totam laboriosam sapiente dolore similique assumenda quas unde ratione a quod. Quisquam fugiat nesciunt vel
+            optio ullam. Doloribus quia sapiente fuga, minus quidem neque asperiores.
+          </p>
+          <button class="about-btn" onclick="aboutNav()">About Me <i class="fa-solid fa-user-large"></i></button>
+        </section>
+        <section class="about">
+          <div class="about-me-title"><span id="About">About</span> Me</div>
+          <div class="about-line"></div>
+          <div class="about-contents">
+            <div class="personal-details">
+              <div id="about-name">Name: <span class="grn-clr">Gowthaman</span></div>
+              <div class="about-age">Age: <span class="grn-clr">19</span></div>
+              <div class="about-quali">Qualification: <span class="grn-clr">12th</span></div>
+              <div class="about-post">Post: <span class="grn-clr">Front End Developer</span></div>
+              <div class="about-lang">Language: <span class="grn-clr">English</span></div>
+            </div>
+            <div class="about-boxes">
+              <div class="box"><span class="grn-clr">2+</span><br />Years Of Experience</div>
+              <div class="box"><span class="grn-clr">100+</span><br />Projects Compeleted</div>
+              <div class="box"><span class="grn-clr">140+</span><br />Happy Customers</div>
+              <div class="box"><span class="grn-clr">10+</span><br />Total Awards Won</div>
+            </div>
+          </div>
+        </section>
+        <section class="education">
+          <div class="edu-title">My <span class="grn-clr">Education</span></div>
+          <div class="about-line"></div>
+          <div class="edu-container">
+            <div class="edu">
+              <div class="edu-line"></div>
+              <button class="edu-year">2016</button>
+              <h1 class="edu-detail">Front End Development</h1>
+              <p class="edu-info">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas atque et fuga delectus similique explicabo.
+              </p>
+            </div>
+            <div class="edu">
+              <div class="edu-line"></div>
+              <button class="edu-year">2016</button>
+              <h1 class="edu-detail">Front End Development</h1>
+              <p class="edu-info">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas atque et fuga delectus similique explicabo.
+              </p>
+            </div>
+            <div class="edu">
+              <div class="edu-line"></div>
+              <button class="edu-year">2016</button>
+              <h1 class="edu-detail">Front End Development</h1>
+              <p class="edu-info">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas atque et fuga delectus similique explicabo.
+              </p>
+            </div>
+            <div class="edu">
+              <div class="edu-line"></div>
+              <button class="edu-year">2016</button>
+              <h1 class="edu-detail">Front End Development</h1>
+              <p class="edu-info">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas atque et fuga delectus similique explicabo.
+              </p>
+            </div>
+            <div class="edu">
+              <div class="edu-line"></div>
+              <button class="edu-year">2016</button>
+              <h1 class="edu-detail">Front End Development</h1>
+              <p class="edu-info">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas atque et fuga delectus similique explicabo.
+              </p>
+            </div>
+            <div class="edu">
+              <div class="edu-line"></div>
+              <button class="edu-year">2016</button>
+              <h1 class="edu-detail">Front End Development</h1>
+              <p class="edu-info">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas atque et fuga delectus similique explicabo.
+              </p>
+            </div>
+          </div>
+        </section>
+        <section class="portfolio">
+          <div class="portfolio-title">My <span class="grn-clr">Portfolio</span></div>
+          <div class="portfolio-line"></div>
+          <div class="portfolio-imgs">
+            <img src="./images/project-8.jpg" alt="Project1" class="port-img" />
+            <img src="./images/project-4.png" alt="Project2" class="port-img" />
+            <img src="./images/project-9.png" alt="Project3" class="port-img" />
+            <img src="./images/project-6.png" alt="Project4" class="port-img" />
+            <img src="./images/project-7.png" alt="Project4" class="port-img" />
+            <img src="./images/project-1.jpg" alt="Project4" class="port-img" />
+          </div>
+        </section>
+        <section class="contact">
+          <div class="contact-title"><span class="grn-clr">Contact</span> Me</div>
+          <div class="contact-line"></div>
+          <div class="contact-container">
+            <div class="contact-info-container">
+              <h1 class="contact-info">CONTACT INFO</h1>
+              <div class="contact-mail"><i class="fa-solid fa-envelope ico"></i> gowthaman2185@gmail.com</div>
+              <div class="contact-ph"><i class="fa-solid fa-phone ico"></i> 9344149978</div>
+              <div class="contact-location"><i class="fa-solid fa-location-dot ico"></i> Hosur, India 635124</div>
+            </div>
+            <div class="contact-fill">
+              <form action="">
+                <input type="text" class="ctn contact-name" placeholder="Name" />
+                <input type="email" class="ctn contact-email" placeholder="Email" />
+                <input type="text" class="ctn contact-subject" placeholder="Subject" />
+                <textarea name="message" class="ctn contact-msg" rows="10" cols="30">Message</textarea>
+                <div class="ctn contact-fill-send">
+                  <button class="contact-send">Send <i class="fa-solid fa-paper-plane ico-black"></i></button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
