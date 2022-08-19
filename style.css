@@ -268,7 +268,7 @@ body {
   grid-template-columns: repeat(3, 1fr);
   grid-column-gap: 1.2em;
   grid-row-gap: 1.5em;
-  margin: 0 auto;
+  margin: 2em auto;
 }
 .port-img {
   max-height: 13em;
