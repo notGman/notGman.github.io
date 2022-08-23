@@ -17,6 +17,11 @@ const sidebar = document.querySelector(".sidebar");
 
 ham.addEventListener('click',function(){
   sidebar.classList.toggle("show-sidebar");
+  homeEl.style.display= "none";
+  aboutEl.style.display = "none";
+  eduEl.style.display = "none";
+  portEl.style.display = "none";
+  contactEl.style.display = "none";
 });
 
 
